@@ -1,0 +1,22 @@
+
+@api = https://jsonplaceholder.typicode.com/comments
+GET {{api}}
+
+
+
+GET https://jsonplaceholder.typicode.com/comments  < Obteniendo >  
+
+
+POST    < Creando >      
+DELETE  < Eliminando > 
+
+PUT 
+
+Content-Type: application/json 
+
+{
+    "id": 1,
+    "title": "Aprendiendo http",
+    "body": "Esta muy Divertido"
+
+}   < Esto de aqui abajo es un request body >
